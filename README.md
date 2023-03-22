@@ -8,8 +8,8 @@
     2. Quais são as entradas destes endpoints (tipos e formatos)?
     3. Quais são as saídas?
 1. Testem cada endpoint.
-1. Implemente uma funcionalidade simples de Login, que suporte:
-    1. criação de usuários com senha
-        1. não permitir usuário duplicados
-    1. fazer Login
-       1. só permitir acesso aos endpoints se houver algum usuário conectado.
+1. Implemente uma funcionalidade simples de gestão de disciplinas:
+    1. criação de disciplinas
+    1. Código da disciplina, descrição e código da turma
+    1. não permitir disciplinas com código duplicado
+    1. listar todas as disciplinas criadas
