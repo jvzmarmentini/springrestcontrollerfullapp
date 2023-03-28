@@ -14,10 +14,6 @@ import br.pucrs.engswii.beans.*;
 
 @RestController
 public class StudentRegistrationController {
-
-	//  @RequestMapping(method = RequestMethod.POST, value="/register/student")
-	//
-	//  @ResponseBody
 	@PostMapping("/register/student")
 	public StudentRegistrationReply registerStudent(@RequestBody Student student) {
 		System.out.println("In registerStudent");

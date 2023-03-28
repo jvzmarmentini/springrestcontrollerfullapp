@@ -13,11 +13,6 @@ import br.pucrs.engswii.beans.StudentRegistration;
 
 @RestController
 public class StudentUpdateController {
-
-//	@RequestMapping(method = RequestMethod.PUT, value="/update/student")
-//
-//
-//	@ResponseBody
 	@PutMapping("/update/student")
 	public String updateStudentRecord(@RequestBody Student stdn) {
 		System.out.println("In updateStudentRecord");   
