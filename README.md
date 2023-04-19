@@ -25,6 +25,10 @@ Once the build is complete, run the following command to start the application:
 java -jar target/application-1.0.0.jar
 ```
 
+## SQL
+
+ MySQL database connection with the URL `jdbc:mysql://localhost:3306/mydatabase`, the username `root`, and the password `mysecretpassword`
+
 ## Using
 
 ### POST new user
