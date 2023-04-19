@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.pucrs.engswii</groupId>
-	<artifactId>Springboot-restcontroller</artifactId>
+	<artifactId>application</artifactId>
 	<version>1.0.0</version>
 	<name>SpringRestControllerFullApp</name>
 	<description>Rest API using Spring Boot</description>
